@@ -127,6 +127,8 @@ ERRORS = [
   "Fill Contract / PO Number, Signed Date, Contract Start Date, Win Reason, and either Contract End Date or tick One-Time Deal."),
  ("Close this deal from the stage path at the top of the deal (Closed, then Closed Won)…",
   "Won deals close through the work package form. On the path at the top choose Closed, then Closed Won, and fill in the form."),
+ ("Cannot set Closed Lost. Needs Loss Reason and Loss Detail…",
+  "Fill Loss Reason and Loss Detail (a sentence on why). If the reason is Lost to Competitor, also set Competitor Won - and if that is Other, type the competitor in Winning Supplier (Other). Easiest from the stage path: Closed, then Closed Lost, which shows all four fields."),
  ("A Closed Lost opportunity cannot be reopened.",
   "Use the Create Re-Tender action on the deal instead. It makes a new linked deal and keeps the original loss."),
  ("Set \"Framework Name\" when \"Procurement Route\" is…",

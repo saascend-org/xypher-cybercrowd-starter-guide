@@ -344,7 +344,7 @@ HTML = f'''<!doctype html>
 
 <footer>
   <div class="wrap">
-    Prepared by SaaScend for the CyberCrowd sales team, updated 2 October 2026. Every field name, dropdown
+    Prepared by SaaScend for the CyberCrowd sales team, updated 5 October 2026. Every field name, dropdown
     option and pass/fail mark is read from the Salesforce production org; if the guide and the system
     disagree, the guide is wrong &mdash; tell us. Your ticks and list are stored in this browser only.
   </div>
