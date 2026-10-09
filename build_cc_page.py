@@ -99,7 +99,7 @@ TIDY = [
    'from the deal name &mdash; check it is right (56 deals with no clue in the name say <strong>Other</strong>). '
    'Funding Route is yours to set. Open the deal, go to <strong>Details</strong>, click the pencil, save.</p>'
    '<p>The deal name updates itself when you change the service line, type or close date.</p>'
-   '<p>A Cyber Essentials or Pen Testing deal under &pound;5k needs nothing more &mdash; it skips the '
+   '<p>A deal over &pound;0 and under &pound;5k needs nothing more &mdash; it skips the '
    'MEDDPICC grades.</p>'),
  step(5,'t5','Give it a Next Step with a future date','The rule every stage move checks',
    '<p>Write the next action in <strong>Next Step</strong> and a date of today or later in '
@@ -307,7 +307,7 @@ HTML = f'''<!doctype html>
   <div class="stagepick" id="stagepick">{PICK}</div>
   <div class="stagebox" id="stagebox"></div>
   <div class="note" style="margin-top:16px"><span class="tag">The light path</span>
-    <p>Cyber Essentials and Pen Testing deals under &pound;5k, and renewals, skip the MEDDPICC grades.
+    <p>Any deal over &pound;0 and under &pound;5k, and renewals, skip the MEDDPICC grades.
     They still need Service Line, Funding Route, a Next Step and the closing fields.</p></div>
 </section>
 
